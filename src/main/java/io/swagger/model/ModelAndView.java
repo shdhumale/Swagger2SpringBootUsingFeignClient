@@ -18,9 +18,7 @@ import javax.validation.constraints.*;
  * ModelAndView
  */
 @Validated
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-07-16T12:03:37.413871100+05:30[Asia/Calcutta]")
-
-
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2021-07-16T16:17:12.505207900+05:30[Asia/Calcutta]")
 public class ModelAndView   {
   @JsonProperty("empty")
   private Boolean empty = null;
@@ -214,7 +212,7 @@ public class ModelAndView   {
   /**
    * Get empty
    * @return empty
-   **/
+  **/
   @ApiModelProperty(value = "")
   
     public Boolean isEmpty() {
@@ -233,7 +231,7 @@ public class ModelAndView   {
   /**
    * Get model
    * @return model
-   **/
+  **/
   @ApiModelProperty(value = "")
   
     public Object getModel() {
@@ -260,7 +258,7 @@ public class ModelAndView   {
   /**
    * Get modelMap
    * @return modelMap
-   **/
+  **/
   @ApiModelProperty(value = "")
   
     public Map<String, Object> getModelMap() {
@@ -279,7 +277,7 @@ public class ModelAndView   {
   /**
    * Get reference
    * @return reference
-   **/
+  **/
   @ApiModelProperty(value = "")
   
     public Boolean isReference() {
@@ -298,7 +296,7 @@ public class ModelAndView   {
   /**
    * Get status
    * @return status
-   **/
+  **/
   @ApiModelProperty(value = "")
   
     public StatusEnum getStatus() {
@@ -317,7 +315,7 @@ public class ModelAndView   {
   /**
    * Get view
    * @return view
-   **/
+  **/
   @ApiModelProperty(value = "")
   
     @Valid
@@ -337,7 +335,7 @@ public class ModelAndView   {
   /**
    * Get viewName
    * @return viewName
-   **/
+  **/
   @ApiModelProperty(value = "")
   
     public String getViewName() {
